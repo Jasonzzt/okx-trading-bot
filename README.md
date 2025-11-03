@@ -50,7 +50,7 @@
 ### 2️⃣ 克隆项目
 
 ```bash
-git clone https://github.com/yourusername/okx-trading-bot.git
+git clone https://github.com/Jasonzzt/okx-trading-bot.git
 cd okx-trading-bot
 ```
 
@@ -114,15 +114,7 @@ TRADING_STRATEGY=balanced  # aggressive/balanced/conservative
 - 📖 [QQ邮箱配置指南](QQ_EMAIL_GUIDE.md)
 - 📖 [策略选择指南](STRATEGY_GUIDE.md)
 
-### 5️⃣ 测试邮件配置
-
-```bash
-uv run test_qq_email.py
-```
-
-成功后会收到测试邮件 ✅
-
-### 6️⃣ 启动系统
+### 5️⃣ 启动系统
 
 ```bash
 uv run main.py
